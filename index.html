@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>კოოპერატივი ყვარლის სახლი</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=LGVtavdrigina&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans Georgian Condensed', sans-serif;
+            color: #333; /* Default text color */
+        }
+        h1, h2, h3 {
+            font-family: 'LGVtavdrigina', cursive; /* Apply LGVtavdrigina to headings */
+        }
+        .section-padding {
+            padding: 4rem 1rem; /* Responsive padding */
+        }
+        @media (min-width: 768px) {
+            .section-padding {
+                padding: 6rem 2rem;
+            }
+        }
+        @media (min-width: 1024px) {
+            .section-padding {
+                padding: 8rem 4rem;
+            }
+        }
+        /* Ensure background image covers the section */
+        .hero-background {
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+            <div class="text-2xl font-bold text-gray-800">
+                კოოპერატივი ყვარლის სახლი
+            </div>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#about" class="text-gray-600 hover:text-gray-800">ჩვენს შესახებ</a></li>
+                    <li><a href="#products" class="text-gray-600 hover:text-gray-800">პროდუქცია</a></li>
+                    <li><a href="#contact" class="text-gray-600 hover:text-gray-800">კონტაქტი</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="relative hero-background h-96 flex items-center justify-center text-white" style="background-image: url('https://cdn.shopify.com/s/files/1/0694/1733/7110/files/Kvareli--shilda_1024x1024.jpg?v=1695831021');">
+         <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="container mx-auto text-center relative z-10">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">კოოპერატივი ყვარლის სახლი</h1>
+            <p class="text-xl md:text-2xl">ქართული ალკოჰოლური სასმელების ტრადიცია</p>
+        </div>
+    </section>
+
+    <section id="about" class="bg-white section-padding rounded-lg shadow-md m-4 md:m-6 lg:m-8">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">ჩვენს შესახებ</h2>
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="md:w-1/2">
+                    <p class="text-gray-700 mb-4">
+                        "კოოპერატივი ყვარლის სახლი" დაარსდა ქართული ალკოჰოლური სასმელების მდიდარი ტრადიციების გაგრძელების მიზნით. ჩვენი ხედვაა შევქმნათ მაღალი ხარისხის პროდუქცია, რომელიც ასახავს ყვარლის რეგიონის უნიკალურ მახასიათებლებს.
+                    </p>
+                    <p class="text-gray-700">
+                        ჩვენი მისიაა ხელი შევუწყოთ ადგილობრივი მეურნეობების განვითარებას და მომხმარებელს შევთავაზოთ ნატურალური, გემოვნური თვისებებით გამორჩეული ბრენდი და არაყი.
+                    </p>
+                    </div>
+                <div class="md:w-1/2">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Cognac_glass.jpg" alt="ჩვენს შესახებ სურათი" class="rounded-md shadow-lg w-full h-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="bg-gray-200 section-padding m-4 md:m-6 lg:m-8 rounded-lg shadow-md">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">ჩვენი პროდუქცია</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://img.freepik.com/premium-photo/mockup-brandy-bottle-with-label_641503-310511.jpg" alt="ბრენდის ბოთლი" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">ბრენდი</h3>
+                        <p class="text-gray-700 mb-4">
+                            მაღალი ხარისხის ქართული ბრენდი, დამზადებული ტრადიციული მეთოდებით. ხელმისაწვდომია 0.7 ლიტრიან შუშის ბოთლში.
+                        </p>
+                        </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://www.absolut.com/cdn-cgi/image/format=auto,quality=55,width=414/app/uploads/absolut-collaboration-no-label_1x1_.jpg" alt="არყის ბოთლი 1ლ" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">არაყი (1 ლიტრი)</h3>
+                        <p class="text-gray-700 mb-4">
+                            სუფთა და გამორჩეული გემოს მქონე ქართული არაყი, 1 ლიტრიან შუშის ბოთლში.
+                        </p>
+                        </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://media.istockphoto.com/id/1310472003/photo/bottle-of-transparent-glass-with-gin-tequila-rum-or-vodka-isolated-on-pure-white-background.jpg?s=612x612&w=0&k=20&c=7THYNd_CKybjbzd0XVB88kq-uUb9R7covK8FVUiAVnA=" alt="არყის ბოთლი 0.5ლ" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">არაყი (0.5 ლიტრი)</h3>
+                        <p class="text-gray-700 mb-4">
+                            სუფთა და გამორჩეული გემოს მქონე ქართული არაყი, 0.5 ლიტრიან შუშის ბოთლში.
+                        </p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <section id="contact" class="bg-white section-padding m-4 md:m-6 lg:m-8 rounded-lg shadow-md">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">კონტაქტი</h2>
+            <p class="text-gray-700 mb-4">
+                დაგვიკავშირდით დამატებითი ინფორმაციისთვის ან შეკვეთისთვის.
+            </p>
+            <p class="text-gray-700">ელ. ფოსტა: info@kvarelihouse.ge (მაგალითი)</p>
+            <p class="text-gray-700">ტელეფონი: +995 555 123 456 (მაგალითი)</p>
+            <p class="text-700">მისამართი: ყვარელი, საქართველო (მაგალითი)</p>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 კოოპერატივი ყვარლის სახლი. ყველა უფლება დაცულია.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
